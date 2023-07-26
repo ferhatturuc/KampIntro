@@ -1,0 +1,15 @@
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\bin\Debug\net6.0\DegerVeReferansTipler.exe
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\bin\Debug\net6.0\DegerVeReferansTipler.deps.json
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\bin\Debug\net6.0\DegerVeReferansTipler.runtimeconfig.json
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\bin\Debug\net6.0\DegerVeReferansTipler.dll
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\bin\Debug\net6.0\DegerVeReferansTipler.pdb
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.csproj.AssemblyReference.cache
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.AssemblyInfoInputs.cache
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.AssemblyInfo.cs
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.csproj.CoreCompileInputs.cache
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.dll
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\refint\DegerVeReferansTipler.dll
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.pdb
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\DegerVeReferansTipler.genruntimeconfig.cache
+C:\Users\4862348\source\repos\KampIntro\DegerVeReferansTipler\obj\Debug\net6.0\ref\DegerVeReferansTipler.dll

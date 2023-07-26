@@ -1,0 +1,5 @@
+C:\Users\4862348\source\repos\KampIntro\GenericsIntro\obj\Debug\net6.0\GenericsIntro.csproj.AssemblyReference.cache
+C:\Users\4862348\source\repos\KampIntro\GenericsIntro\obj\Debug\net6.0\GenericsIntro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4862348\source\repos\KampIntro\GenericsIntro\obj\Debug\net6.0\GenericsIntro.AssemblyInfoInputs.cache
+C:\Users\4862348\source\repos\KampIntro\GenericsIntro\obj\Debug\net6.0\GenericsIntro.AssemblyInfo.cs
+C:\Users\4862348\source\repos\KampIntro\GenericsIntro\obj\Debug\net6.0\GenericsIntro.csproj.CoreCompileInputs.cache
