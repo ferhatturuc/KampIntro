@@ -19,16 +19,39 @@ namespace OOP3
             ILoggerService fileLoggerService = new FileLoggerService();
             ILoggerService smsLoggerService= new SmsLoggerService();
 
+
+            List<IKrediManager> krediler = new List<IKrediManager>()
+            {
+                ihtiyacKrediManager ,
+                tasitKrediManager,
+                konutKrediManager,
+                esnafKrediManager };
+            
+           
+            List<ILoggerService> loggers = new List<ILoggerService>
+            {
+                new DatabaseLoggerService(),
+                new FileLoggerService(),
+                new SmsLoggerService()
+            };
+
             BasvuruManager basvuruManager = new BasvuruManager();
-            basvuruManager.BasvuruYap(ihtiyacKrediManager, new  DatabaseLoggerService());
-            basvuruManager.BasvuruYap(tasitKrediManager, databaseLoggerService);
-            basvuruManager.BasvuruYap(konutKrediManager,  fileLoggerService);
-            basvuruManager.BasvuruYap(esnafKrediManager, smsLoggerService);
+            //basvuruManager.BasvuruYap(ihtiyacKrediManager, new DatabaseLoggerService());
+            //basvuruManager.BasvuruYap(tasitKrediManager, databaseLoggerService);
+            //basvuruManager.BasvuruYap(konutKrediManager, fileLoggerService);
+            //basvuruManager.BasvuruYap(esnafKrediManager, smsLoggerService);
 
+            basvuruManager.BasvuruYap(
+                new IhtiyacKrediManager(),
+                new List<ILoggerService> 
+                { 
+                    new DatabaseLoggerService(), 
+                    new SmsLoggerService() 
+                });
 
-            List<IKrediManager> krediler = new List<IKrediManager>() { ihtiyacKrediManager , tasitKrediManager,konutKrediManager};
-
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            basvuruManager.BasvuruYap(new EsnafKrediManager(), loggers);
+            Console.WriteLine("-----------------");
+            basvuruManager.KrediOnBilgilendirmesiYap(krediler);
         }
     }
 }
