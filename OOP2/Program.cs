@@ -25,11 +25,13 @@ namespace OOP2
             musteri1.TcNo = "1234567890";
 
             //Tüzel Müşteri
-            TuzelMusteri musteri2 = new TuzelMusteri();
-            musteri2.Id = 2;
-            musteri2.MusteriNo= "123456";
-            musteri2.VergiNo= "12345";
-            musteri2.SirketAdi = "Jandarma";
+            TuzelMusteri musteri2 = new TuzelMusteri
+            {
+                Id = 2,
+                MusteriNo = "123456",
+                VergiNo = "12345",
+                SirketAdi = "Jandarma"
+            };
 
             Musteri musteri3 = new GercekMusteri();
             Musteri musteri4 = new TuzelMusteri();
